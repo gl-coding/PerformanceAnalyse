@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+message PersonInfo {
+    //my name
+    string name = 1;
+    //my age
+    int32 age = 2;
+    //my work unit
+    string work_unit = 3;
+    message ClassMate {
+        //name
+        string name = 1;
+        //age
+        uint32 age = 2;
+    }
+    repeated ClassMate class_mate = 4;
+}

@@ -1,0 +1,7 @@
+uptime
+
+w
+
+iostat
+
+

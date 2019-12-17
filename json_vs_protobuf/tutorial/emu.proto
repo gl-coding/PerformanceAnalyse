@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+package tutorial;
+
+
+message MyMessage {
+  map<int32, int32> mapfield = 1;
+}
+
